@@ -33,4 +33,4 @@ class CommentAdmin(admin.ModelAdmin):
 
 @admin.register(Follow)
 class FollowAdmin(admin.ModelAdmin):
-    list_select_related = ("user", "author")
+    list_select_related = ("user", "following")
