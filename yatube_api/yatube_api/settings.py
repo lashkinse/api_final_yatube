@@ -21,6 +21,7 @@ INSTALLED_APPS = [
     "rest_framework.authtoken",
     "api",
     "posts",
+    "drf_spectacular",
 ]
 
 MIDDLEWARE = [
@@ -97,6 +98,7 @@ REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": [
         "rest_framework_simplejwt.authentication.JWTAuthentication",
     ],
+    "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
 }
 
 SIMPLE_JWT = {
@@ -105,3 +107,9 @@ SIMPLE_JWT = {
 }
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+SPECTACULAR_SETTINGS = {
+    "TITLE": "Yatube API",
+    "DESCRIPTION": "Описание моделей и представлений",
+    "VERSION": "1.0.0",
+}
