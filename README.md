@@ -1,13 +1,11 @@
-# API для Yatube
+# API для Yatube (api_final_yatube)
+![python version](https://img.shields.io/badge/Python-3.9-green)
+![django version](https://img.shields.io/badge/Django-3.2-green)
+![pillow version](https://img.shields.io/badge/Pillow-9.3-green)
+![pytest version](https://img.shields.io/badge/pytest-6.2-green)
+![requests version](https://img.shields.io/badge/requests-2.26-green)
 
-[![Python](https://img.shields.io/badge/-Python-464641?style=flat-square&logo=Python)](https://www.python.org/)
-[![Django](https://img.shields.io/badge/Django-464646?style=flat-square&logo=django)](https://www.djangoproject.com/)
-[![Pytest](https://img.shields.io/badge/Pytest-464646?style=flat-square&logo=pytest)](https://docs.pytest.org/en/6.2.x/)
-[![Postman](https://img.shields.io/badge/Postman-464646?style=flat-square&logo=postman)](https://www.postman.com/)
-
-## Описание
-
-Итоговый проект в рамках курса "Python-разработчик". Спринт 9. API для Yatube.
+Проект представляет собой API для проекта Yatube (hw05_final). Через этот интерфейс смогут работать мобильное приложение или чат-бот, можно будет передавать данные в любое приложение или на фронтенд. Работа с API доступна аутентифицированным пользователям. Удалять и изменять пользователи могут только свой контент, чужой - только читать. Анонимным пользователям доступны запросы только на чтение, кроме доступа к контенту подписок.
 
 ## Как запустить проект:
 
