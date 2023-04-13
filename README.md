@@ -1,11 +1,13 @@
 # API для Yatube (api_final_yatube)
-![python version](https://img.shields.io/badge/Python-3.9-green)
-![django version](https://img.shields.io/badge/Django-3.2-green)
-![pillow version](https://img.shields.io/badge/Pillow-9.3-green)
-![pytest version](https://img.shields.io/badge/pytest-6.2-green)
-![requests version](https://img.shields.io/badge/requests-2.26-green)
 
 Проект представляет собой API для проекта Yatube (hw05_final). Через этот интерфейс смогут работать мобильное приложение или чат-бот, можно будет передавать данные в любое приложение или на фронтенд. Работа с API доступна аутентифицированным пользователям. Удалять и изменять пользователи могут только свой контент, чужой - только читать. Анонимным пользователям доступны запросы только на чтение, кроме доступа к контенту подписок.
+
+## Стек технологий
+
+* Python 3.9,
+* Django 3.2,
+* DRF,
+* JWT + Djoser
 
 ## Как запустить проект:
 
